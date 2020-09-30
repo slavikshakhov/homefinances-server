@@ -23,9 +23,9 @@
     "operatorsAliases": 0
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
+    "username": "bba1f453896277",
+    "password": "514df053",
+    "database": "heroku_8df05b135635347",
     "host": "https://git.heroku.com/homefinances-server.git",
     "dialect": "mysql",
     "operatorsAliases": 0

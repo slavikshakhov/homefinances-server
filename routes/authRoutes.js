@@ -45,6 +45,7 @@ router.post(
 );
 
 router.post("/login", async (req, res) => {
+  res.headers.append("Access-Control-Allow-Origin", "http://localhost:3000");
   let { username, password } = req.body;
   username = username.toLowerCase();
   var user = await db.User.findOne({ where: { username: username } });

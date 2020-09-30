@@ -7,12 +7,12 @@ const db = require("./models");
 // app.use(express.static(publicPath));
 
 const PORT = process.env.PORT || 4000;
-//var cors = require("cors");
+var cors = require("cors");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-//app.use(cors());
+app.use(cors());
 /*
 app.get("*", (req, res) => {
   res.sendFile(path.join(publicPath, "index.html"));

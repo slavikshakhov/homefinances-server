@@ -23,9 +23,9 @@
     "operatorsAliases": 0
   },
   "production": {
-    "username": "b7e73520e1e00c",
-    "password": "d063cf4d",
-    "database": "heroku_4ac12d87e57a427",
+    "username": "b1e68f4607c534",
+    "password": "1372f669",
+    "database": "heroku_36b46fdd13bf970",
     "host": "eu-cdbr-west-03.cleardb.net",
     "dialect": "mysql",
     "operatorsAliases": 0
